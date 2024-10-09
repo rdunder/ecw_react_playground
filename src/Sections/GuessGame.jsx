@@ -2,6 +2,10 @@ import "../Styles/Sections/guessGame.css";
 
 
 function GuessGame() {
+    const click = () => {
+        console.log("button clicked");
+    }
+
     return (
         <section id="guess-game" className="guess-game">
             <div className="gg-headings">
@@ -11,8 +15,8 @@ function GuessGame() {
             </div>
             <div className="gg-form-container">
                 <form className="gg-form">
-                    <input id="gg-input" placeholder="&#35;" autofocus autocomplete="off" />
-                    <button id="gg-btn-submit">Submit</button>
+                    <input id="gg-input" placeholder="&#35;" autoFocus autoComplete="off" />
+                    <button id="gg-btn-submit" onClick={click}>Submit</button>
                 </form>                
             </div>         
             <div className="gg-try-container">
