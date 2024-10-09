@@ -17,13 +17,14 @@ body {
 
 a {
     text-decoration: none;
-    color: #0d3238;
+    color: hsl(3, 40%, 58%);
     font-size: 1.2rem;
+    font-weight: 500;
 
     &:hover {
         cursor: pointer;
         text-decoration: underline;
-        color: #13626e;
+        color: hsl(3, 60%, 65%);
     }
 }
 

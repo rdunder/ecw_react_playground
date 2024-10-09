@@ -1,0 +1,82 @@
+
+
+.guess-game {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+
+    .gg-headings {
+        text-align: center;
+        margin-bottom: 1rem;
+
+        h2 {
+            font-size: 3rem;
+            font-weight: 400;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+        #gg-feedback {
+            margin-top: 1rem;
+            font-size: 2.4rem;
+            font-weight: 300;
+            opacity: 0;
+            transition: all 500ms;
+        }
+    }    
+
+    .gg-form-container {
+        display: flex;
+        justify-content: center;
+        .gg-form {
+            display: flex;
+        }
+
+        #gg-input {
+            width: 150px;
+            background-color: transparent;
+            border: 2px solid #0c4d36;
+            border-radius: 0.5rem 0 0 0.5rem;
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+            outline: #12533d;
+        }
+
+        #gg-btn-submit {
+            background-color: #0c4d36;
+            border: 2px solid #0c4d36;
+            border-radius: 0 0.5rem 0.5rem 0;
+            color: white;
+            transition: background-color 300ms;
+            padding: 1rem 2rem;
+            &:hover {
+                cursor: pointer;
+                background-color: #0f5e42;
+            }            
+        }
+    }
+
+    .gg-try-container {
+        display: flex;
+        flex-direction: column;
+
+        .gg-tries-left {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+    
+        .gg-guess-list {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+
+    
+
+}

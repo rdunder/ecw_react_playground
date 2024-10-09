@@ -5,12 +5,10 @@ import "../Styles/Components/header.css";
 function Header() {
     return (
         <header className="header">
-            <a className="logo" href="#">
-                <img src={logo} />
-            </a>
+            <a className="logo" href="#"><img src={logo} /></a>
 
             <nav>
-                <a href="#">Section1</a>
+                <a href="#guess-game">GuessGame</a>
                 <a href="#">Section2</a>
                 <a href="#">Section3</a>
             </nav>

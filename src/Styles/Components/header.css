@@ -18,9 +18,9 @@
     .logo::after {
         content: "CodingTime";
         position: absolute;
-        top: 1%;
+        top: 40%;
         left: 120%;
-
+        transform: translateY(-50%);
         font-size: 1.5rem;
         font-weight: 600;
         color: hsl(3, 50%, 65%);
