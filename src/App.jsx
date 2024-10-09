@@ -15,6 +15,7 @@ function App() {
       <Intro />
       <main>
         <GuessGame />
+        <Lorem />
       </main>
     </div>
   )
