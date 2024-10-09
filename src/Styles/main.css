@@ -26,3 +26,14 @@ a {
         color: #13626e;
     }
 }
+
+#root {
+    /* background-color: #eee; */
+}
+
+.wrapper {
+    padding: 0 2rem;
+    max-width: 720px;
+    margin: 0 auto;
+    position: relative;
+}

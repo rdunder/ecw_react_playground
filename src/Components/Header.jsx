@@ -5,7 +5,9 @@ import "../Styles/Components/header.css";
 function Header() {
     return (
         <header className="header">
-            <img src={logo} />
+            <a className="logo" href="#">
+                <img src={logo} />
+            </a>
 
             <nav>
                 <a href="#">Section1</a>

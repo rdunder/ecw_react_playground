@@ -4,9 +4,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem 0 0.2rem 0;
+
+    position: sticky;
+    top: 0;
+
+    background-color: #fff;
+
+    .logo {
+        position: relative;
+    }
+
+    .logo::after {
+        content: "CodingTime";
+        position: absolute;
+        top: 1%;
+        left: 120%;
+
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: hsl(3, 50%, 65%);
+    }
 
     img {
-        width: 100px;
+        width: 50px;
         aspect-ratio: 1;
     }
 
